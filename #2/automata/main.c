@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:339f84ccc1d9f031ce062a0190570345ed5ccc0d8e134f11dedb5872f1df355a
-size 353
+#include "automataWorkspace.h"
+
+// TODO: Seperate Debug codes out completely. If possible, function that you would like to inspect, should pass into debug() function.
+
+int main(int argc, char *argv[]){
+    init();
+    config();
+
+    setup("w");
+    loop();
+    fileClose();
+
+    setup("r");
+    test();
+    fileClose();
+
+    return 0;
+}

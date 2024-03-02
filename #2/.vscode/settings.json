@@ -1,3 +1,38 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9a2ac6bbdf78d26cbb73f75423a0921240453438f2cdaf8153f3c9f29c835987
-size 921
+{
+    "files.associations": {
+        "datagen.h": "c",
+        "chrono": "cpp",
+        "typeinfo": "cpp",
+        "algorithm": "c",
+        "atomic": "c",
+        "*.tcc": "c",
+        "memory": "c",
+        "new": "c",
+        "numeric": "c",
+        "system_error": "c",
+        "thread": "c",
+        "*.inc": "c",
+        "automata.h": "c",
+        "array": "c",
+        "bit": "c",
+        "charconv": "c",
+        "deque": "c",
+        "list": "c",
+        "string": "c",
+        "unordered_map": "c",
+        "vector": "c",
+        "memory_resource": "c",
+        "string_view": "c",
+        "random": "c",
+        "format": "c",
+        "initializer_list": "c",
+        "istream": "c",
+        "span": "c",
+        "sstream": "c",
+        "stdexcept": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "*.def": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
+}

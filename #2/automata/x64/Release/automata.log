@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:744c15030ed6c95d0ebc13f7b5392074725515de0e68ae9ca9b6ca420fd86d32
-size 491
+﻿  workspace.c
+D:\shared\Documents\CPE2312\(10,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  2 of 18 functions (11.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  automata.vcxproj -> D:\shared\Documents\CPE2312\#2\automata\x64\Release\automata.exe

@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8e5abb0b9c7d2e9ca53eec5c969efd4e93d25b0d8b1fae1c107e094ef0fc673e
-size 513
+#pragma once
+
+#ifndef AUTOMATA
+#define AUTOMATA
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+
+#define TRUE 1
+#define FALSE 0
+#endif
+
+#ifndef AUTOMATAWORKSPACE_EXPORTS
+#define AUTOMATAWORKSPACE_API __declspec(dllexport)
+#else
+#define	AUTOMATAWORKSPACE_API __declspec(dllimport)
+#endif // AUTOMATAWORKSPACE_EXPORTS
+
+// user defined
+extern AUTOMATAWORKSPACE_API void config();
+extern AUTOMATAWORKSPACE_API void control(char *str);
+extern AUTOMATAWORKSPACE_API int automata(char *str);

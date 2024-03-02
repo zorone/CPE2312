@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:34204a3a4149661da40166643e8b002e61fa32094663c7716d99f7b138ea41c8
-size 818
+﻿C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (automataSharedLib.vcxproj, automata.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     Creating library D:\shared\Documents\CPE2312\#2\automata\x64\Debug\automataWorkspace.lib and object D:\shared\Documents\CPE2312\#2\automata\x64\Debug\automataWorkspace.exp
+workspace.obj : error LNK2019: unresolved external symbol setPass referenced in function control
+workspace.obj : error LNK2019: unresolved external symbol setFail referenced in function control
+D:\shared\Documents\CPE2312\#2\automata\x64\Debug\automataWorkspace.dll : fatal error LNK1120: 2 unresolved externals

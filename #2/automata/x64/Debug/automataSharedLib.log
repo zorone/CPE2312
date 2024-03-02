@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:21d7f22fdcf83a5433ba647e3862a06cc0248f6fed851654a3a69f25c8387463
-size 1816
+﻿C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (automataWorkspace.vcxproj, automata.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     Creating library D:\shared\Documents\CPE2312\#2\automata\x64\Debug\automataSharedLib.lib and object D:\shared\Documents\CPE2312\#2\automata\x64\Debug\automataSharedLib.exp
+config.obj : error LNK2001: unresolved external symbol projectName
+setup.obj : error LNK2001: unresolved external symbol projectName
+config.obj : error LNK2001: unresolved external symbol size
+strGen.obj : error LNK2001: unresolved external symbol size
+test.obj : error LNK2001: unresolved external symbol size
+dataFlag.obj : error LNK2001: unresolved external symbol passContainer
+setup.obj : error LNK2001: unresolved external symbol passContainer
+test.obj : error LNK2001: unresolved external symbol passContainer
+dataFlag.obj : error LNK2001: unresolved external symbol failContainer
+setup.obj : error LNK2001: unresolved external symbol failContainer
+test.obj : error LNK2001: unresolved external symbol failContainer
+setup.obj : error LNK2001: unresolved external symbol testFailContainer
+test.obj : error LNK2001: unresolved external symbol testFailContainer
+setup.obj : error LNK2001: unresolved external symbol isTesting
+strGen.obj : error LNK2019: unresolved external symbol control referenced in function loop
+test.obj : error LNK2019: unresolved external symbol automata referenced in function test
+test.obj : error LNK2001: unresolved external symbol allocateSize
+D:\shared\Documents\CPE2312\#2\automata\x64\Debug\automataSharedLib.dll : fatal error LNK1120: 9 unresolved externals

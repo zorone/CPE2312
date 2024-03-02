@@ -1,3 +1,43 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cf9a0566a81787aa2dc5e0c245980d211a62db76857ee5d41f6bec978e1e478c
-size 1180
+#pragma once
+
+#ifndef AUTOMATA
+#define AUTOMATA
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+
+#define TRUE 1
+#define FALSE 0
+#endif
+
+#ifndef AUTOMATALIBRARY_EXPORTS
+#define AUTOMATALIBRARY_API __declspec(dllexport)
+#else
+#define	AUTOMATALIBRARY_API __declspec(dllimport)
+#endif // AUTOMATALIBRARY_EXPORTS
+
+
+// internal
+extern AUTOMATALIBRARY_API int init();
+extern AUTOMATALIBRARY_API int setup(char* mode);
+extern AUTOMATALIBRARY_API int setProjectName(char* name);
+extern AUTOMATALIBRARY_API int setSize(int length);
+extern AUTOMATALIBRARY_API int loop();
+extern AUTOMATALIBRARY_API int setPass(char *str);
+extern AUTOMATALIBRARY_API int setFail(char *str);
+extern AUTOMATALIBRARY_API int test();
+extern AUTOMATALIBRARY_API int fileClose();
+
+#ifndef INC
+#define INC
+// internal data
+extern AUTOMATALIBRARY_API FILE *passContainer;
+extern AUTOMATALIBRARY_API FILE *failContainer;
+extern AUTOMATALIBRARY_API FILE *testFailContainer;
+extern AUTOMATALIBRARY_API int isTesting;
+extern AUTOMATALIBRARY_API int allocateSize;
+
+// user data
+extern AUTOMATALIBRARY_API char projectName[100];
+extern AUTOMATALIBRARY_API int size;
+#endif
