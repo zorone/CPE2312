@@ -4,6 +4,7 @@
 // TODO: Add support for NFA. Maybe through add(). add() will automatically set and create 2D arr when first calling it.
 //? NFA data storage structure; idx: {str, pathA, pathB, ...}; ex. 0: {1010: ACDA, AADA}
 
+// TODO: Add support for setAlphabetList
 // TODO: Add support for setProjectName
 
 // TODO: Do documentation
