@@ -1,3 +1,49 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:21f49ebd8dca747df1b529034a8f40e6a0227cb81e5dd2dac5939468cdfa59e3
-size 1599
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64",
+            "mergeConfigurations": false,
+            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/cl.exe",
+            "browse": {
+                "path": [
+                    "C:/git/msys2-runtime/winsup/cygwin/include\\**",
+                    "C:/git/msys2-runtime/include\\**",
+                    "C:/git/msys2-runtime/libgloss/bfin/include\\**",
+                    "C:/git/msys2-runtime/newlib/libc/include\\**",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "msys2_mingw64",
+            "includePath": [
+                "${default}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": "C:/msys64/mingw64/bin/gcc"
+        }
+    ],
+    "version": 4
+}

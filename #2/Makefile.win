@@ -1,3 +1,46 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2609e52e5790dcc63270eab16f992f604efa5f862532423cc612da503f07fe0c
-size 2234
+# Project: automata
+# Makefile created by Embarcadero Dev-C++ 6.3
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = main.o workspace.o internal/dataFlag.o internal/setProjectName.o internal/setup.o internal/strGen.o internal/test.o
+LINKOBJ  = main.o workspace.o internal/dataFlag.o internal/setProjectName.o internal/setup.o internal/strGen.o internal/test.o
+LIBS     = -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib" -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/lib" -static-libgcc -pg -g3
+INCS     = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+CXXINCS  = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"
+BIN      = automata.exe
+CXXFLAGS = $(CXXINCS) -pg -g3
+CFLAGS   = $(INCS) -pg -g3
+DEL      = C:\Program Files (x86)\Embarcadero\Dev-Cpp\devcpp.exe INTERNAL_DEL
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${DEL} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+workspace.o: workspace.c
+	$(CC) -c workspace.c -o workspace.o $(CFLAGS)
+
+internal/dataFlag.o: internal/dataFlag.c
+	$(CC) -c internal/dataFlag.c -o internal/dataFlag.o $(CFLAGS)
+
+internal/setProjectName.o: internal/setProjectName.c
+	$(CC) -c internal/setProjectName.c -o internal/setProjectName.o $(CFLAGS)
+
+internal/setup.o: internal/setup.c
+	$(CC) -c internal/setup.c -o internal/setup.o $(CFLAGS)
+
+internal/strGen.o: internal/strGen.c
+	$(CC) -c internal/strGen.c -o internal/strGen.o $(CFLAGS)
+
+internal/test.o: internal/test.c
+	$(CC) -c internal/test.c -o internal/test.o $(CFLAGS)

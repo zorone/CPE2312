@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d769d5e32d1f2457a60b39f63e6099a1cc52ed80666fecc57015e092e13a42aa
-size 67
+{
+    "files.associations": {
+        "automata.h": "c"
+    }
+}

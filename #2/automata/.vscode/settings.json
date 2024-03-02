@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cf7b10ac84227d48b2368570df5bab42e1669173d84c5a29ff273f378bb7141c
-size 609
+{
+    "files.associations": {
+        "automata.h": "c",
+        "bit": "c",
+        "charconv": "c",
+        "format": "c",
+        "initializer_list": "c",
+        "iterator": "c",
+        "locale": "c",
+        "memory": "c",
+        "ostream": "c",
+        "system_error": "c",
+        "type_traits": "c",
+        "typeinfo": "c",
+        "utility": "c",
+        "xlocale": "c",
+        "xlocbuf": "c",
+        "xlocinfo": "c",
+        "xlocmon": "c",
+        "xlocnum": "c",
+        "xloctime": "c",
+        "xmemory": "c",
+        "xstring": "c",
+        "xutility": "c"
+    }
+}

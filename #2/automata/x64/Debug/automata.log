@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d685e3f937daa8b3eeec0233022af989a844fcadd606ea685963d0eea7d6e1de
-size 133
+﻿  strGen.c
+  test.c
+  Generating Code...
+  automata.vcxproj -> D:\shared\Documents\CPE2312\#2\automata\x64\Debug\automata.exe

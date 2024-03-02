@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7602fce5e67e79eb880eab8ab2eb436d7e5a530b3663a15cc9bce29c83058447
-size 109
+{
+  "ExpandedNodes": [
+    ""
+  ],
+  "SelectedNode": "\\main.c",
+  "PreviewInSolutionExplorer": false
+}

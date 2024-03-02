@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5e3718b973aedda60a6c25bb729c5e4a34613df8bf10fbf8a3d5f4df262f9edf
-size 647
+#include "internal/automata.h"
+
+// TODO: Seperate Debug codes out completely. If possible, function that you would like to inspect, should pass into debug() function.
+
+// ? https://www.freecodecamp.org/news/extern-keyword-function-tutorial/
+// internal data
+FILE *passContainer = '\0';
+FILE *failContainer = '\0';
+FILE *testFailContainer = '\0';
+int isTesting = 0;
+
+// user data
+char projectName[100] = "\0";
+int size = 16;
+int allocateSize;
+long passStatus = 0;
+
+int main(int argc, char *argv[]){
+    init();
+
+    setup("w");
+    loop();
+    fileClose();
+
+    setup("r");
+    test();
+    fileClose();
+
+    return 0;
+}

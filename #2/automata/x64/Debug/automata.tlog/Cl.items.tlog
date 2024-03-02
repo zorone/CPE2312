@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9ea3faff1d316111fc9eaa9527d6bc5e143dff71cdebc6f699199c73e90ec7cf
-size 838
+D:\shared\Documents\CPE2312\#2\automata\internal\dataFlag.c;D:\shared\Documents\CPE2312\#2\automata\x64\Debug\dataFlag.obj
+D:\shared\Documents\CPE2312\#2\automata\internal\setProjectName.c;D:\shared\Documents\CPE2312\#2\automata\x64\Debug\setProjectName.obj
+D:\shared\Documents\CPE2312\#2\automata\internal\setup.c;D:\shared\Documents\CPE2312\#2\automata\x64\Debug\setup.obj
+D:\shared\Documents\CPE2312\#2\automata\internal\strGen.c;D:\shared\Documents\CPE2312\#2\automata\x64\Debug\strGen.obj
+D:\shared\Documents\CPE2312\#2\automata\internal\test.c;D:\shared\Documents\CPE2312\#2\automata\x64\Debug\test.obj
+D:\shared\Documents\CPE2312\#2\automata\main.c;D:\shared\Documents\CPE2312\#2\automata\x64\Debug\main.obj
+D:\shared\Documents\CPE2312\#2\automata\workspace.c;D:\shared\Documents\CPE2312\#2\automata\x64\Debug\workspace.obj

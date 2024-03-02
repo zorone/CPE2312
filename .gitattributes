@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6f96ab12233411fb39dd3b90e4ddf8e0f6d783cc29078eed53ec0b39b6ce1b9a
-size 3726
+*.suo filter=lfs diff=lfs merge=lfs -text
+*.vsidx filter=lfs diff=lfs merge=lfs -text
+*.exp filter=lfs diff=lfs merge=lfs -text
+*.iobj filter=lfs diff=lfs merge=lfs -text
+*.lib filter=lfs diff=lfs merge=lfs -text
+*.metadata filter=lfs diff=lfs merge=lfs -text
+*.pdb filter=lfs diff=lfs merge=lfs -text
+*.ilk filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.db filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.sbr filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.sqlite filter=lfs diff=lfs merge=lfs -text
+*.wsuo filter=lfs diff=lfs merge=lfs -text
+*.bsc filter=lfs diff=lfs merge=lfs -text
+*.idb filter=lfs diff=lfs merge=lfs -text
+*.ipch filter=lfs diff=lfs merge=lfs -text
+*.ipdb filter=lfs diff=lfs merge=lfs -text
+*.o filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
