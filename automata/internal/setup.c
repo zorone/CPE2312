@@ -1,5 +1,9 @@
 #include "automataLib.h"
 
+/*  TODO: dynamics variable passContainer, failContainer, and testFailContainer. In cases using -n[ocache]
+ *        It should possible to use same interface, both via RAM, and also storage.
+ */
+
 int init(){
     // ? https://www.freecodecamp.org/news/extern-keyword-function-tutorial/
     // ? https://learn.microsoft.com/en-us/cpp/error-messages/tool-errors/linker-tools-error-lnk2001?view=msvc-170&f1url=%3FappId%3DDev16IDEF1%26l%3DEN-US%26k%3Dk(LNK2001)%26rd%3Dtrue

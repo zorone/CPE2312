@@ -1,5 +1,8 @@
 #include "automataLib.h"
 
+// TODO: seperate fprintf() out from the program. So it is easy to toggle fprintf() on or off.
+// TODO: seperate printf() out from the program. So it is easy to toggle printf() on or off.
+
 int test(){
     char *testStr = malloc(sizeof(char)*size);
     int signal = 0;
