@@ -7,6 +7,8 @@
 // TODO: Add support for setAlphabetList
 // TODO: Add support for setProjectName
 
+// TODO: Add support for user-defined testing. (In test() function.)
+
 // TODO: Do documentation
 
 void config(){
