@@ -1,6 +1,7 @@
 #include "internal/automata.h"
 
 // TODO: Seperate Debug codes out completely. If possible, function that you would like to inspect, should pass into debug() function.
+// TODO: Add user interaction mode -i, that it waits for user testing string.
 
 // ? https://www.freecodecamp.org/news/extern-keyword-function-tutorial/
 // internal data

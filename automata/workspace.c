@@ -1,5 +1,15 @@
 #include "internal/automata.h"
 
+// TODO: Add support for NFA. Maybe through add(). add() will automatically set and create 2D arr when first calling it.
+//? NFA data storage structure; idx: {str, pathA, pathB, ...}; ex. 0: {1010: ACDA, AADA}
+
+// TODO: Add support for setAlphabetList
+// TODO: Add support for setProjectName
+
+// TODO: Add support for user-defined testing. (In test() function.)
+
+// TODO: Do documentation
+
 void init(){
     setProjectName(""); // Put your project name here.
     // size = 16; // The default size of string is 16
